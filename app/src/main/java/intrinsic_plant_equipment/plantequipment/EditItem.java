@@ -110,9 +110,7 @@ public class EditItem extends BaseClass implements View.OnClickListener {
         note = (EditText) findViewById(R.id.note);
         condition2 = (Spinner)findViewById(R.id.condition2);
         context = this;
-
         barcode.setText(barcodeValue);
-
 
     }
 
